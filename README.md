@@ -3,7 +3,7 @@
 A collection of AI for Drug Design related papers and corresponding code sources (in progress).
 
 
-- Table of Contents
+## Table of Contents
   - [Molecule](#molecule)
     - [Molecule Generation](#molecule-generation)
     - [Conformation Generation](#conformation-generation)
