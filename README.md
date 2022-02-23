@@ -40,8 +40,6 @@ A collection of AI for Drug Design related papers and corresponding code sources
 ### Property Prediction
 
 - NeurIPS (2021) [Property-Aware Relation Networks for Few-Shot Molecular Property Prediction](https://proceedings.neurips.cc/paper/2021/hash/91bc333f6967019ac47b49ca0f2fa757-Abstract.html). Molecular property prediction is essentially a few-shot problem which makes it hard to use regular machine learning models.
-- NeurIPS (2021) [Motif-based Graph Self-Supervised Learning for Molecular Property Prediction](https://proceedings.neurips.cc/paper/2021/hash/85267d349a5e647ff0a9edcb5ffd1e02-Abstract.html). Most existing self-supervised pretraining frameworks for GNNs only focus on node-level or graph-level tasks. These approaches cannot capture the rich information in subgraphs or graph motifs.
-- NeurIPS (2021) [Deep Molecular Representation Learning via Fusing Physical and Chemical Information](https://proceedings.neurips.cc/paper/2021/hash/884d247c6f65a96a7da4d1105d584ddd-Abstract.html). Two networks specialize in their own tasks and cooperate by providing expertise to each other.
 - ICLR oral (2022) [Meta-Learning with Fewer Tasks through Task Interpolation ](https://openreview.net/forum?id=ajXWF7bVR8d).  The bottleneck of current meta-learning algorithms is the requirement of a large number of meta-training tasks, which may not be accessible in real-world scenarios.
 - ICLR (2022) [Constrained Graph Mechanics Networks ](https://openreview.net/forum?id=SHbhHHfePhP). Can be used for molecular dynamics prediction.
 
@@ -60,6 +58,7 @@ A collection of AI for Drug Design related papers and corresponding code sources
 - ICLR (2022) [A Program to Build E(N)-Equivariant Steerable CNNs](https://openreview.net/forum?id=WE4qe9xlnQw).  A general method to build G-steerable kernel spaces for equivariant steerable CNNs.
 - ICLR spotlight (2022) [Geometric and Physical Quantities improve E(3) Equivariant Message Passing ](https://openreview.net/forum?id=_xwr8gOBeV1). Generalise equivariant graph networks such that node and edge updates are able to leverage covariant information.
 - ICLR (2022) [Spherical Message Passing for 3D Molecular Graphs ](https://openreview.net/forum?id=givsRXsOt9r). Incorporating torsion information when representing 3D molecules is novel and helpful.
+- NeurIPS (2021) [Deep Molecular Representation Learning via Fusing Physical and Chemical Information](https://proceedings.neurips.cc/paper/2021/hash/884d247c6f65a96a7da4d1105d584ddd-Abstract.html). Two networks specialize in their own tasks and cooperate by providing expertise to each other.
 - ICLR (2022) [MoReL: Multi-omics Relational Learning ](https://openreview.net/forum?id=DnG75_KyHjX). Multi-omics data analysis has the potential to discover hidden molecular interactions, revealing potential regulatory and/or signal transduction pathways for cellular processes of interest when studying life and disease systems. 
 - ICLR (2022) [Graph Neural Networks with Learnable Structural and Positional Representations ](https://openreview.net/forum?id=wTTjnvGphYj). This work adds the positional encoding (akin to those in transformers, but adapted) to GNNs.
 
@@ -67,6 +66,7 @@ A collection of AI for Drug Design related papers and corresponding code sources
 
 - ICLR (2022) [Pre-training Molecular Graph Representation with 3D Geometry ](https://openreview.net/forum?id=xQUe1pOKPam). A new SSL framework to make 3D geomety information helpful for 2D representation, in terms of the downstream tasks with 2D info only.
 - ICLR (2022) [Chemical-Reaction-Aware Molecule Representation Learning ](https://openreview.net/forum?id=6sh3pIzKS-). Make use of chemical reactions to improve the generalization ability of learned molecule embeddings
+- NeurIPS (2021) [Motif-based Graph Self-Supervised Learning for Molecular Property Prediction](https://proceedings.neurips.cc/paper/2021/hash/85267d349a5e647ff0a9edcb5ffd1e02-Abstract.html). Most existing self-supervised pretraining frameworks for GNNs only focus on node-level or graph-level tasks. These approaches cannot capture the rich information in subgraphs or graph motifs.
 
 ## Protein
 
