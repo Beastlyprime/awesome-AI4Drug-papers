@@ -10,6 +10,7 @@ A collection of AI for Drug Design related papers and corresponding code sources
     - [Property Prediction](#property-prediction)
       - [Physics Properties](#physics-properties)
     - [Representation Learning](#representation-learning)
+      - [Pre-training](#pre-training)
   - [Protein](#protein)
     - [Design](#design)
     - [Representation Learning](#representation-learning-1)
@@ -58,11 +59,14 @@ A collection of AI for Drug Design related papers and corresponding code sources
 - ICLR (2022) [Learning 3D Representations of Molecular Chirality with Invariance to Bond Rotations ](https://openreview.net/forum?id=hm2tNDdgaFK). A method of processing the 3D torsion angles of a molecular conformer to learn tetrahedral chirality while integrating a novel invariance to rotations about internal molecular bonds directly into the model architecture.
 - ICLR (2022) [A Program to Build E(N)-Equivariant Steerable CNNs](https://openreview.net/forum?id=WE4qe9xlnQw).  A general method to build G-steerable kernel spaces for equivariant steerable CNNs.
 - ICLR spotlight (2022) [Geometric and Physical Quantities improve E(3) Equivariant Message Passing ](https://openreview.net/forum?id=_xwr8gOBeV1). Generalise equivariant graph networks such that node and edge updates are able to leverage covariant information.
-- ICLR (2022) [Chemical-Reaction-Aware Molecule Representation Learning ](https://openreview.net/forum?id=6sh3pIzKS-). Make use of chemical reactions to improve the generalization ability of learned molecule embeddings
-- ICLR (2022) [Pre-training Molecular Graph Representation with 3D Geometry ](https://openreview.net/forum?id=xQUe1pOKPam). A new SSL framework to make 3D geomety information helpful for 2D representation, in terms of the downstream tasks with 2D info only.
 - ICLR (2022) [Spherical Message Passing for 3D Molecular Graphs ](https://openreview.net/forum?id=givsRXsOt9r). Incorporating torsion information when representing 3D molecules is novel and helpful.
 - ICLR (2022) [MoReL: Multi-omics Relational Learning ](https://openreview.net/forum?id=DnG75_KyHjX). Multi-omics data analysis has the potential to discover hidden molecular interactions, revealing potential regulatory and/or signal transduction pathways for cellular processes of interest when studying life and disease systems. 
 - ICLR (2022) [Graph Neural Networks with Learnable Structural and Positional Representations ](https://openreview.net/forum?id=wTTjnvGphYj). This work adds the positional encoding (akin to those in transformers, but adapted) to GNNs.
+
+#### Pre-training
+
+- ICLR (2022) [Pre-training Molecular Graph Representation with 3D Geometry ](https://openreview.net/forum?id=xQUe1pOKPam). A new SSL framework to make 3D geomety information helpful for 2D representation, in terms of the downstream tasks with 2D info only.
+- ICLR (2022) [Chemical-Reaction-Aware Molecule Representation Learning ](https://openreview.net/forum?id=6sh3pIzKS-). Make use of chemical reactions to improve the generalization ability of learned molecule embeddings
 
 ## Protein
 
