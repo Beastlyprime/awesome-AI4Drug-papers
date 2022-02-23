@@ -2,7 +2,20 @@
 
 A collection of AI for Drug Design related papers and corresponding code sources (in progress).
 
--------------
+
+- Table of Contents
+  - [Molecule](#molecule)
+    - [Molecule Generation](#molecule-generation)
+    - [Conformation Generation](#conformation-generation)
+    - [Property Prediction](#property-prediction)
+      - [Physics Properties](#physics-properties)
+    - [Representation Learning](#representation-learning)
+  - [Protein](#protein)
+    - [Design](#design)
+    - [Representation Learning](#representation-learning-1)
+    - [Function Prediction](#function-prediction)
+    - [Contact Prediction / Docking](#contact-prediction--docking)
+
 
 ## Molecule
 
