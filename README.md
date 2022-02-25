@@ -11,6 +11,7 @@ A collection of AI for Drug Design related papers and corresponding code sources
       - [Physics Properties](#physics-properties)
     - [Representation Learning](#representation-learning)
       - [Pre-training](#pre-training)
+  - [Gene](#gene)
   - [Protein](#protein)
     - [Design](#design)
     - [Representation Learning](#representation-learning-1)
