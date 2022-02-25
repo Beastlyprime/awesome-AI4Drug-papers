@@ -23,6 +23,7 @@ A collection of AI for Drug Design related papers and corresponding code sources
 ### Molecule Generation
 
 - NeurIPS (2021) [Hit and Lead Discovery with Explorative RL and Fragment-based Molecule Generation](https://proceedings.neurips.cc/paper/2021/hash/41da609c519d77b29be442f8c1105647-Abstract.html). A novel RL framework that generates pharmacochemically acceptable molecules with large docking scores.
+- NeurIPS (2021) [A 3D Generative Model for Structure-Based Drug Design](https://proceedings.neurips.cc/paper/2021/hash/314450613369e0ee72d0da7f6fee773c-Abstract.html). A 3D generative model that generates molecules given a designated 3D protein binding site.
 - ICLR oral (2022) [Data-Efficient Graph Grammar Learning for Molecular Generation ](https://openreview.net/forum?id=l4IHywGq6a). A data-efficient generative model that can be learned from datasets with orders of magnitude smaller sizes than common benchmarks. 
 - ICLR spotlight (2022) [Spanning Tree-based Graph Generation for Molecules ](https://openreview.net/forum?id=w60btE_8T2m). Formulating molecular graph generation as a construction of a spanning tree and the residual edges. 
 - ICLR spotlight (2022) [Amortized Tree Generation for Bottom-up Synthesis Planning and Synthesizable Molecular Design ](https://openreview.net/forum?id=FRxhHdnxt1). Demonstrating the potential to solve both problems of design and synthesis simultaneously.
@@ -40,6 +41,7 @@ A collection of AI for Drug Design related papers and corresponding code sources
 ### Property Prediction
 
 - NeurIPS (2021) [Property-Aware Relation Networks for Few-Shot Molecular Property Prediction](https://proceedings.neurips.cc/paper/2021/hash/91bc333f6967019ac47b49ca0f2fa757-Abstract.html). Molecular property prediction is essentially a few-shot problem which makes it hard to use regular machine learning models.
+- NeurIPS (2021) [Functionally Regionalized Knowledge Transfer for Low-resource Drug Discovery](https://proceedings.neurips.cc/paper/2021/file/459a4ddcb586f24efd9395aa7662bc7c-Abstract.html). A functional rationalized meta-learning algorithm FRML for transferring the knowledge from previous assays, namely in-vivo experiments, by different laboratories and against various target proteins.
 - ICLR oral (2022) [Meta-Learning with Fewer Tasks through Task Interpolation ](https://openreview.net/forum?id=ajXWF7bVR8d).  The bottleneck of current meta-learning algorithms is the requirement of a large number of meta-training tasks, which may not be accessible in real-world scenarios.
 - ICLR (2022) [Constrained Graph Mechanics Networks ](https://openreview.net/forum?id=SHbhHHfePhP). Can be used for molecular dynamics prediction.
 
@@ -67,6 +69,10 @@ A collection of AI for Drug Design related papers and corresponding code sources
 - ICLR (2022) [Pre-training Molecular Graph Representation with 3D Geometry ](https://openreview.net/forum?id=xQUe1pOKPam). A new SSL framework to make 3D geomety information helpful for 2D representation, in terms of the downstream tasks with 2D info only.
 - ICLR (2022) [Chemical-Reaction-Aware Molecule Representation Learning ](https://openreview.net/forum?id=6sh3pIzKS-). Make use of chemical reactions to improve the generalization ability of learned molecule embeddings
 - NeurIPS (2021) [Motif-based Graph Self-Supervised Learning for Molecular Property Prediction](https://proceedings.neurips.cc/paper/2021/hash/85267d349a5e647ff0a9edcb5ffd1e02-Abstract.html). Most existing self-supervised pretraining frameworks for GNNs only focus on node-level or graph-level tasks. These approaches cannot capture the rich information in subgraphs or graph motifs.
+
+
+## Gene
+- ICLR (2022) [GeneDisco: A Benchmark for Experimental Design in Drug Discovery](https://openreview.net/forum?id=-w2oomO6qgc). GeneDisco contains a curated set of multiple publicly available experimental data sets as well as open-source implementations of state-of-the-art active learning policies for experimental design and exploration. 
 
 ## Protein
 
